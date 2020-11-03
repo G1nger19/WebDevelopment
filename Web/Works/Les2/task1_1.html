@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="iconfinder_document-research-search-file-resume_4288583.png" type="image/png">
+</head>
+<body>
+    <h2>Resume</h2>
+    <div class="resume">
+        <form>
+            <p>
+                <label>
+                    <span>Your name:</span>
+                    <input type="text" name="name" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Your Surname:</span>
+                    <input type="text" name="surname" required>
+                </label>
+            </p>
+
+            <div>
+                <p>Age of birthday:</p>
+                <select name="age">
+                    <option value="1970">1970</option>
+                    <option value="1975">1975</option>
+                    <option value="1980">1980</option>
+                    <option value="1985">1985</option>
+                    <option value="1990">1990</option>
+                    <option value="1995">1995</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Sex:</p>
+                <label>
+                    <input type="radio" name="sex" value="man"><span>Man</span>
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="woman"><span>Woman</span>
+                </label>
+            </div>
+
+            <div>
+                <p>Last experience:</p>
+                <textarea name="last_work" required></textarea>
+            </div>
+
+            <p>
+                <label>
+                    <input type="checkbox" name="auto" />
+                    <span>Auto</span>
+                </label>
+            </p>
+
+            <div>
+                <p>Knowledge of languages:</p>
+                <label>
+                    <p><input type="radio" name="lang" value="ru" required /><span>Russian</span></p>
+                </label>
+                <label>
+                    <p><input type="radio" name="lang" value="en"/><span>English</span></p>
+                </label>
+                <label>
+                    <p><input type="radio" name="lang" value="ge"/><span>German</span></p>
+                </label>
+                <label>
+                    <p><input type="radio" name="lang" value="oth"/><span>Other</span></p>
+                </label>
+            </div>
+
+            <p>
+                <label>
+                    <span>Email:</span>
+                    <input type="email" name="email" required />
+                </label>
+            </p>
+
+            <p>
+                <input type="submit" required />
+                <span>Submit</span>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
