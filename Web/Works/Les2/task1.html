@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <h1>Register form</h1>
+    <div class="register_form">
+        <p>Register here</p>
+        <form>
+           <p>
+            <label>
+                <span>First name</span>
+                <input type="text" name="first_name" required autocomplete="off"/>
+            </label>
+           </p>
+           <p>
+               <label>
+                <span>Last name</span>
+                <input type="text" name="last_name" required autocomplete="off"/>
+               </label>
+           </p>
+           <p>
+               <label>
+                   <span>Birthday</span>
+                   <input type="date" name="birth" required autocomplete="off"/>
+               </label>
+           </p>
+           <p>
+                <label>
+                    <span>email</span>
+                    <input type="email" name="email" autocomplete="off"/>
+                </label>
+            </p>
+            <div>
+                <p>About yourself</p>
+                <textarea required cols="80" rows="6" name="about"></textarea>
+            </div>
+            <div>
+                <h5>Age</h5>
+                <label>
+                    <p><input type="radio" name="age" value="0"/><span>0-18</span></p>
+                </label>
+                <p>
+                    <input type="radio" name="age" value="19" checked id="age-19"/>
+                    <label for="age-19">18-30</label>
+                </p>
+                <label>
+                    <p><input type="radio" name="age" value="36"/><span>30+</span></p>
+                </label>
+            </div>
+
+            <div>
+                <p>Choose your country(tag select)</p>
+                <select name="country" multiple>
+                    <option value="ru">russia</option>
+                    <option value="en">england</option>
+                    <option value="de">denmark</option>
+                    <option value="by">belarus</option>
+                </select>
+            </div>
+
+            <p>
+                <label>
+                    <input type="checkbox" required name="user-agreement"/>
+                    <span>I agree with <a href="">user agreement</a></span>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" required name="terms"/>
+                    <span>I agree with <a href="">terms</a></span>
+                </label>
+            </p>
+
+            <p>
+                <input type="submit" value="Register"/>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

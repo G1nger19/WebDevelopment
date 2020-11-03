@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div>
+        <form>
+            <h3>My second lesson</h3>
+            <h2>Audio</h2>
+            <div class="audios">
+                <div class="audio">
+                    <audio src="Audio/2_463301150173148797.mp3" controls></audio>
+                    <p>Audio 1</p>
+                </div>
+                <div class="audio">
+                    <audio src="Audio/2_463301150173148797.mp3" controls></audio>
+                    <p>Audio 2</p>
+                </div>
+                <div class="audio">
+                    <audio src="Audio/2_463301150173148797.mp3" controls></audio>
+                    <p>Audio 3</p>
+                </div>
+            </div>
+            <p>Input name</p>
+            <p><input type="text" placeholder="Name" name="Username" required/><span></span></p>
+            <p><input type="text" placeholder="Password" name="Password" required/><span></span></p>
+            <p><input type="email" name="email" required autocomplete="off" placeholder="Enter your email"/><span>email</span></p>
+            <p>Your age</p>
+            <div>
+                <label>
+                    <p><input type="radio" name="age" value="0"/><span>0-18</span></p>
+                </label>
+                <p>
+                    <input type="radio" name="age" value="19" checked id="age-19"/>
+                    <label for="age-19">18-30</label>
+                </p>
+                <p><input type="radio" name="age" value="36"/><span>30+</span></p>
+            </div>
+            <p><input type="button" value="click button"></p>
+            <p><button type="button">Click <b>me</b></button></p>
+            <p><input type="range"/><span>range</span></p>
+            <p><input type="checkbox"><span>checkbox</span></p>
+            <div>
+                <p>Choose your country(tag select)</p>
+                <select name="country" multiple>
+                    <option value="ru">russia</option>
+                    <option value="en">england</option>
+                    <option value="de">denmark</option>
+                    <option value="by">belarus</option>
+                </select>
+            </div>
+            <div>
+                <textarea placeholder="Your text(Cant use tags)"></textarea>
+            </div>
+            <p><input type="submit"/><span>submit</span></p>
+        </form>
+    </div>
+</body>
+</html>
