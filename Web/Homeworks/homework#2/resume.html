@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="main.html">Main</a>
+                <a href="blog.html">Blog</a>
+                <a href="video.html">Video</a>
+                <a href="resume.html">Contacts</a>
+            </span>
+        </nav>
+        <div class="path">
+        </br>
+            <a href="main.html">Main</a> -> <a href="resume.html">Contacts</a>
+        </div>
+    </header>
+    <main>
+        <div style="text-align: center;" class="resume">
+            <h1>Communicate with us</h1>
+            <form>
+                <label>
+                    <p>Your Name and Surname:</p>
+                    <input type="text" name="name" placeholder="Name Surname" required >
+                </label>
+
+                <label>
+                    <p>Age:</p>
+                    <input type="date" name="age" placeholder="choose you birthday" required >
+                </label>
+
+                <div>
+                        <p>Education:</p>
+                        <select name="education" required>
+                            <option value="no">No</option>
+                            <option value="middle">middle</option>
+                            <option value="s_middle">special middle</option>
+                            <option value="student">First high education(student)</option>
+                            <option value="1high">High education degree</option>
+                            <option value="2morehigh">Two or more high education's degree's</option>
+                        </select> 
+                </div>
+
+                <div>
+                    <p>Family status:</p>
+                    <label>
+                        <input type="radio" name="fam_status" value="married">
+                        <span>Married</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="fam_status" value="active">
+                    <span>In active searching</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="fam_status" value="contact">
+                        <span>In a relationship</span>
+                    </label>
+                </div>
+                <div>
+                    <p>Knowledge of languages:</p>
+                    <label>
+                        <input type="checkbox" name="lang" value="ru" required>
+                        <span>russian</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="lang" value="en">
+                        <span>english</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="lang" value="sp">
+                        <span>spain</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="lang" value="ge">
+                        <span>german</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="lang" value="by">
+                        <span>belarus</span>
+                    </label>
+                </div>
+                <label>
+                    <p>Work mounth:</p>
+                    <input type="number" min="0" max="360" name="wmounth" placeholder="0-360" required>
+                </label>
+
+                <label>
+                    <p>About you:</p>
+                    <textarea name="about" placeholder="Few words about yourself and your work expirience" cols="30" rows="3" required></textarea>
+                </label>
+
+                <div>
+                    <p>Drive licence:</p>
+                    <input type="radio" name="drive" value="yes" required>
+                    <span>Yes</span>
+                    <input type="radio" name="drive" value="no">
+                    <span>No</span>
+                </div> 
+
+                <label>
+                    <p>Email adress:</p>
+                    <input type="email" name="email" required>
+                </label>
+
+                <p>
+                    <input type="submit" required>
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
